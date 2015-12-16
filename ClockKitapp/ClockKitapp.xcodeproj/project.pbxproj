@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272CE3C61C2116D000201B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272CE3C51C2116D000201B9A /* AppDelegate.swift */; };
+		272CE3C81C2116D000201B9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272CE3C71C2116D000201B9A /* ViewController.swift */; };
+		272CE3CB1C2116D000201B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272CE3C91C2116D000201B9A /* Main.storyboard */; };
+		272CE3CD1C2116D000201B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272CE3CC1C2116D000201B9A /* Assets.xcassets */; };
+		272CE3D01C2116D000201B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272CE3CE1C2116D000201B9A /* LaunchScreen.storyboard */; };
+		272CE3D51C2116D000201B9A /* ClockKitapp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 272CE3D41C2116D000201B9A /* ClockKitapp WatchKit App.app */; };
+		272CE3DB1C2116D000201B9A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272CE3D91C2116D000201B9A /* Interface.storyboard */; };
+		272CE3DD1C2116D100201B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272CE3DC1C2116D100201B9A /* Assets.xcassets */; };
+		272CE3E41C2116D100201B9A /* ClockKitapp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 272CE3E31C2116D100201B9A /* ClockKitapp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		272CE3E91C2116D100201B9A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272CE3E81C2116D100201B9A /* InterfaceController.swift */; };
+		272CE3EB1C2116D100201B9A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272CE3EA1C2116D100201B9A /* ExtensionDelegate.swift */; };
+		272CE3ED1C2116D100201B9A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272CE3EC1C2116D100201B9A /* ComplicationController.swift */; };
+		272CE3EF1C2116D100201B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272CE3EE1C2116D100201B9A /* Assets.xcassets */; };
+		272CE4031C21249500201B9A /* bible.png in Resources */ = {isa = PBXBuildFile; fileRef = 272CE4021C21249500201B9A /* bible.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		272CE3D61C2116D000201B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272CE3BA1C2116D000201B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272CE3D31C2116D000201B9A;
+			remoteInfo = "ClockKitapp WatchKit App";
+		};
+		272CE3E51C2116D100201B9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272CE3BA1C2116D000201B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272CE3E21C2116D100201B9A;
+			remoteInfo = "ClockKitapp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		272CE3F61C2116D100201B9A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				272CE3E41C2116D100201B9A /* ClockKitapp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272CE3FA1C2116D100201B9A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				272CE3D51C2116D000201B9A /* ClockKitapp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		272CE3C21C2116D000201B9A /* ClockKitapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockKitapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		272CE3C51C2116D000201B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		272CE3C71C2116D000201B9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		272CE3CA1C2116D000201B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		272CE3CC1C2116D000201B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		272CE3CF1C2116D000201B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		272CE3D11C2116D000201B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272CE3D41C2116D000201B9A /* ClockKitapp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ClockKitapp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		272CE3DA1C2116D000201B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		272CE3DC1C2116D100201B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		272CE3DE1C2116D100201B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272CE3E31C2116D100201B9A /* ClockKitapp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ClockKitapp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		272CE3E81C2116D100201B9A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		272CE3EA1C2116D100201B9A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		272CE3EC1C2116D100201B9A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		272CE3EE1C2116D100201B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		272CE3F01C2116D100201B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272CE4021C21249500201B9A /* bible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bible.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		272CE3BF1C2116D000201B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272CE3E01C2116D100201B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272CE3B91C2116D000201B9A = {
+			isa = PBXGroup;
+			children = (
+				272CE3C41C2116D000201B9A /* ClockKitapp */,
+				272CE3D81C2116D000201B9A /* ClockKitapp WatchKit App */,
+				272CE3E71C2116D100201B9A /* ClockKitapp WatchKit Extension */,
+				272CE3C31C2116D000201B9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		272CE3C31C2116D000201B9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				272CE3C21C2116D000201B9A /* ClockKitapp.app */,
+				272CE3D41C2116D000201B9A /* ClockKitapp WatchKit App.app */,
+				272CE3E31C2116D100201B9A /* ClockKitapp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272CE3C41C2116D000201B9A /* ClockKitapp */ = {
+			isa = PBXGroup;
+			children = (
+				272CE3C51C2116D000201B9A /* AppDelegate.swift */,
+				272CE3C71C2116D000201B9A /* ViewController.swift */,
+				272CE3C91C2116D000201B9A /* Main.storyboard */,
+				272CE3CC1C2116D000201B9A /* Assets.xcassets */,
+				272CE3CE1C2116D000201B9A /* LaunchScreen.storyboard */,
+				272CE3D11C2116D000201B9A /* Info.plist */,
+			);
+			path = ClockKitapp;
+			sourceTree = "<group>";
+		};
+		272CE3D81C2116D000201B9A /* ClockKitapp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				272CE3D91C2116D000201B9A /* Interface.storyboard */,
+				272CE3DC1C2116D100201B9A /* Assets.xcassets */,
+				272CE3DE1C2116D100201B9A /* Info.plist */,
+			);
+			path = "ClockKitapp WatchKit App";
+			sourceTree = "<group>";
+		};
+		272CE3E71C2116D100201B9A /* ClockKitapp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				272CE4021C21249500201B9A /* bible.png */,
+				272CE3E81C2116D100201B9A /* InterfaceController.swift */,
+				272CE3EA1C2116D100201B9A /* ExtensionDelegate.swift */,
+				272CE3EC1C2116D100201B9A /* ComplicationController.swift */,
+				272CE3EE1C2116D100201B9A /* Assets.xcassets */,
+				272CE3F01C2116D100201B9A /* Info.plist */,
+			);
+			path = "ClockKitapp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		272CE3C11C2116D000201B9A /* ClockKitapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272CE3FB1C2116D100201B9A /* Build configuration list for PBXNativeTarget "ClockKitapp" */;
+			buildPhases = (
+				272CE3BE1C2116D000201B9A /* Sources */,
+				272CE3BF1C2116D000201B9A /* Frameworks */,
+				272CE3C01C2116D000201B9A /* Resources */,
+				272CE3FA1C2116D100201B9A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272CE3D71C2116D000201B9A /* PBXTargetDependency */,
+			);
+			name = ClockKitapp;
+			productName = ClockKitapp;
+			productReference = 272CE3C21C2116D000201B9A /* ClockKitapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		272CE3D31C2116D000201B9A /* ClockKitapp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272CE3F71C2116D100201B9A /* Build configuration list for PBXNativeTarget "ClockKitapp WatchKit App" */;
+			buildPhases = (
+				272CE3D21C2116D000201B9A /* Resources */,
+				272CE3F61C2116D100201B9A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272CE3E61C2116D100201B9A /* PBXTargetDependency */,
+			);
+			name = "ClockKitapp WatchKit App";
+			productName = "ClockKitapp WatchKit App";
+			productReference = 272CE3D41C2116D000201B9A /* ClockKitapp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		272CE3E21C2116D100201B9A /* ClockKitapp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272CE3F31C2116D100201B9A /* Build configuration list for PBXNativeTarget "ClockKitapp WatchKit Extension" */;
+			buildPhases = (
+				272CE3DF1C2116D100201B9A /* Sources */,
+				272CE3E01C2116D100201B9A /* Frameworks */,
+				272CE3E11C2116D100201B9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ClockKitapp WatchKit Extension";
+			productName = "ClockKitapp WatchKit Extension";
+			productReference = 272CE3E31C2116D100201B9A /* ClockKitapp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		272CE3BA1C2116D000201B9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kyle Huber";
+				TargetAttributes = {
+					272CE3C11C2116D000201B9A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					272CE3D31C2116D000201B9A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					272CE3E21C2116D100201B9A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 272CE3BD1C2116D000201B9A /* Build configuration list for PBXProject "ClockKitapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 272CE3B91C2116D000201B9A;
+			productRefGroup = 272CE3C31C2116D000201B9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				272CE3C11C2116D000201B9A /* ClockKitapp */,
+				272CE3D31C2116D000201B9A /* ClockKitapp WatchKit App */,
+				272CE3E21C2116D100201B9A /* ClockKitapp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		272CE3C01C2116D000201B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272CE3D01C2116D000201B9A /* LaunchScreen.storyboard in Resources */,
+				272CE3CD1C2116D000201B9A /* Assets.xcassets in Resources */,
+				272CE3CB1C2116D000201B9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272CE3D21C2116D000201B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272CE3DD1C2116D100201B9A /* Assets.xcassets in Resources */,
+				272CE3DB1C2116D000201B9A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272CE3E11C2116D100201B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272CE4031C21249500201B9A /* bible.png in Resources */,
+				272CE3EF1C2116D100201B9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		272CE3BE1C2116D000201B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272CE3C81C2116D000201B9A /* ViewController.swift in Sources */,
+				272CE3C61C2116D000201B9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272CE3DF1C2116D100201B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272CE3EB1C2116D100201B9A /* ExtensionDelegate.swift in Sources */,
+				272CE3E91C2116D100201B9A /* InterfaceController.swift in Sources */,
+				272CE3ED1C2116D100201B9A /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		272CE3D71C2116D000201B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272CE3D31C2116D000201B9A /* ClockKitapp WatchKit App */;
+			targetProxy = 272CE3D61C2116D000201B9A /* PBXContainerItemProxy */;
+		};
+		272CE3E61C2116D100201B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272CE3E21C2116D100201B9A /* ClockKitapp WatchKit Extension */;
+			targetProxy = 272CE3E51C2116D100201B9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		272CE3C91C2116D000201B9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272CE3CA1C2116D000201B9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		272CE3CE1C2116D000201B9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272CE3CF1C2116D000201B9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		272CE3D91C2116D000201B9A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272CE3DA1C2116D000201B9A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		272CE3F11C2116D100201B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		272CE3F21C2116D100201B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		272CE3F41C2116D100201B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "ClockKitapp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.ClockKitapp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		272CE3F51C2116D100201B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "ClockKitapp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.ClockKitapp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		272CE3F81C2116D100201B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = ClockKitapp_WatchKit_Extension;
+				INFOPLIST_FILE = "ClockKitapp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.ClockKitapp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		272CE3F91C2116D100201B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = ClockKitapp_WatchKit_Extension;
+				INFOPLIST_FILE = "ClockKitapp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.ClockKitapp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		272CE3FC1C2116D100201B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClockKitapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.ClockKitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		272CE3FD1C2116D100201B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClockKitapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IWU.ClockKitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		272CE3BD1C2116D000201B9A /* Build configuration list for PBXProject "ClockKitapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272CE3F11C2116D100201B9A /* Debug */,
+				272CE3F21C2116D100201B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272CE3F31C2116D100201B9A /* Build configuration list for PBXNativeTarget "ClockKitapp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272CE3F41C2116D100201B9A /* Debug */,
+				272CE3F51C2116D100201B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		272CE3F71C2116D100201B9A /* Build configuration list for PBXNativeTarget "ClockKitapp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272CE3F81C2116D100201B9A /* Debug */,
+				272CE3F91C2116D100201B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		272CE3FB1C2116D100201B9A /* Build configuration list for PBXNativeTarget "ClockKitapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272CE3FC1C2116D100201B9A /* Debug */,
+				272CE3FD1C2116D100201B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 272CE3BA1C2116D000201B9A /* Project object */;
+}
